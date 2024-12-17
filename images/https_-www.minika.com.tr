@@ -1,0 +1,511 @@
+
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    
+    
+
+
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+
+ <link rel="SHORTCUT ICON" href="https://i.tmgrup.com.tr/minika/site/v1/i/favicon.ico" /> 
+<link rel="dns-prefetch" href="//i.tmgrup.com.tr" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- global style files -->
+<link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/minika/site/v1/c/bootstrap-grid.css?v=15980" /> 
+<link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/minika/site/v1/c/animate.css?v=15980" /> 
+<link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/minika/site/v1/c/swiper.min.css?v=15980" /> 
+<link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/minika/site/v1/c/jquery.fancybox.css?v=15980" /> 
+<link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/minika/site/v1/c/showcase.css?v=15980" /> 
+<link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/minika/site/v1/c/main.css?v=15980" /> 
+<!-- END.global style / scripts files -->
+
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/jquery.3.3.1.min.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/jquery.cookie.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/rd_mob_lib.js?v=15980"></script> 
+
+
+<script type="text/javascript">
+    var GlobalVariables = {
+        ImageServer: "https://i.tmgrup.com.tr/minika/site/v1",
+        DateForUrl: "/2024/12/07"
+    }
+</script>
+
+<script type="text/javascript" src="https://i.tmgrup.com.tr/tmd-consent/j/tmdconsent-v2.2.js?v=15980"></script> 
+
+<script src="https://i.tmgrup.com.tr/tmd/mobile-detect/md.min.js?v=733" type="text/javascript"></script><script src="https://i.tmgrup.com.tr/tmd/tmdbr.min.js?v=733" type="text/javascript"></script>
+
+<script async=async src=https://securepubads.g.doubleclick.net/tag/js/gpt.js></script><script async=async src=https://static.criteo.net/js/ld/publishertag.js></script><script>function bdGetCookie(n){for(var i,r=n+"=",u=r.length,f=document.cookie.length,t=0;f>t;){if(i=t+u,document.cookie.substring(t,i)==r)return bdGetCookieVal(i);if(0==(t=document.cookie.indexOf(" ",t)+1))break}return null}function bdGetCookieVal(n){var t=document.cookie.indexOf(";",n);return-1==t&&(t=document.cookie.length),unescape(document.cookie.substring(n,t))}function bdDeleteCookie(n,t,i){bdGetCookie(n)&&(document.cookie=n+"="+(t?"; path="+t:"")+(i?"; domain="+i:"")+"; expires=Thu, 01-Jan-70 00:00:01 GMT")}function bdSetCookie(n,t,i,r,u,f){document.cookie=n+"="+escape(t)+(i?"; expires="+i:"")+(r?"; path="+r:"")+(u?"; domain="+u:"")+(f?"; secure":"")}function bdGetDocumentHeight(){return $(window).height()}function bdHide970x250(){googletag.pubads().clear([bdSlots.slot_d_970x250]);$("#id_d_970x250").prepend('<div class="slot_control" style="float:right; cursor:pointer; font-size:small; font-family:sans-serif; background-color:rgba(0, 0, 0, 0.1); padding:1px 5px 1px 5px; color:rgba(94, 102, 81, 0.85); " onClick="bdShow970x250();">Reklamı Göster<\/div>');$("#id_d_970x250").show();$("#id_d_970x250").css("margin-bottom","25px")}function bdShow970x250(){$(".slot_control").length>0&&$(".slot_control").remove();googletag.cmd.push(function(){bdSlots.slot_d_970x250.clearTargeting();googletag.pubads().refresh([bdSlots.slot_d_970x250])});$("#id_d_970x250").css("margin-bottom","15px")}</script><script>var googletag=googletag||{},bdSlots;googletag.cmd=googletag.cmd||[];bdSlots=bdSlots||{};googletag.cmd.push(function(){deviceInfo.isMobile?(bdSlots.slot_m_300x250=googletag.defineSlot("/31110078/minika/mobile_web/sitegeneli/300x250",[300,250],"id_m_300x250").addService(googletag.pubads()),bdSlots.slot_m_300x250_2=googletag.defineSlot("/31110078/minika/mobile_web/sitegeneli/300x250_2",[300,250],"id_m_300x250_2").addService(googletag.pubads()),bdSlots.slot_m_300x250_3=googletag.defineSlot("/31110078/minika/mobile_web/sitegeneli/300x250_3",[300,250],"id_m_300x250_3").addService(googletag.pubads()),bdSlots.slot_m_300x250_4=googletag.defineSlot("/31110078/minika/mobile_web/sitegeneli/300x250_4",[300,250],"id_m_300x250_4").addService(googletag.pubads()),bdSlots.slot_m_custombox=googletag.defineSlot("/31110078/minika/mobile_web/sitegeneli/custombox",[970,250],"id_m_custombox").addService(googletag.pubads()),bdSlots.slot_m_po=googletag.defineOutOfPageSlot("/31110078/minika/mobile_web/sitegeneli/pageoverlay","id_m_po").addService(googletag.pubads())):(deviceInfo.isMobile||deviceInfo.isTablet||(bdSlots.slot_d_pageskin_master=googletag.defineSlot("/31110078/minika/desktop_web/sitegeneli/pageskin_master",[[500,1e3],[160,600],[120,600]],"id_d_ps_left").addService(googletag.pubads()),bdSlots.slot_d_pageskin_companion_right=googletag.defineSlot("/31110078/minika/desktop_web/sitegeneli/pageskin_companion_right",[[160,600],[120,600],[500,1001]],"id_d_ps_right").addService(googletag.pubads())),bdSlots.slot_d_970x250=googletag.defineSlot("/31110078/minika/desktop_web/sitegeneli/970x250",[[970,250],[970,90],[970,91],[970,350]],"id_d_970x250").addService(googletag.pubads()),bdSlots.slot_d_300x250=googletag.defineSlot("/31110078/minika/desktop_web/sitegeneli/300x250",[300,250],"id_d_300x250").addService(googletag.pubads()),bdSlots.slot_d_300x250_2=googletag.defineSlot("/31110078/minika/desktop_web/sitegeneli/300x250_2",[300,250],"id_d_300x250_2").addService(googletag.pubads()),bdSlots.slot_d_300x250_3=googletag.defineSlot("/31110078/minika/desktop_web/sitegeneli/300x250_3",[300,250],"id_d_300x250_3").addService(googletag.pubads()),bdSlots.slot_d_300x250_4=googletag.defineSlot("/31110078/minika/desktop_web/sitegeneli/300x250_4",[300,250],"id_d_300x250_4").addService(googletag.pubads()),bdSlots.slot_d_po=googletag.defineOutOfPageSlot("/31110078/minika/desktop_web/sitegeneli/pageoverlay","id_d_po").addService(googletag.pubads()));window.location.pathname.split("/").length>2&&googletag.pubads().setTargeting("kv_detay","1");googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs(!0);googletag.pubads().addEventListener("slotRenderEnded",function(n){var r=$("#"+n.slot.getSlotElementId()),i,t;n.slot==bdSlots.slot_d_pageskin_companion_right&&n.campaignId==389705318&&window.addEventListener("scroll",function(){$("#id_d_ps_right").css("top",-document.documentElement.scrollTop)});n.slot==bdSlots.slot_d_pageskin_companion_top&&n.isEmpty&&($("._pageSkinTop").remove(),console.log("_pageskinTop removed!"));n.slot==bdSlots.slot_d_970x250?(console.log("elementId:"+n.slot.getSlotElementId()+" campaignId: "+n.campaignId),n.isEmpty||n.size[1]==350||n.size[1]==91||n.size[1]==90||(i='<div class="slot_control" style="float:right; cursor:pointer; font-size:small; font-family:sans-serif; background-color:rgba(0, 0, 0, 0.1); padding:1px 5px 1px 5px; color:rgba(94, 102, 81, 0.85); " onClick="bdHide970x250();">Reklamı Kapat<\/div>',r.prepend(i))):n.slot==bdSlots.slot_d_728x90&&(n.isEmpty||(t=$(".advertControlArea").height()+90,$(".pageSkinRight").css({top:t}),$(".pageSkinLeft").css({top:t})))});googletag.enableServices()})</script>
+
+
+
+ <meta http-equiv="Refresh" content="180" /> 
+ <link rel="canonical" href="https://www.minika.com.tr" /> 
+ <meta property="fb:pages" content="122278061175230" /> 
+<title>minika - Çizgi filmler, oyunlar, çocuk etkinlikleri..</title> 
+ <meta name="Description" content="minikaGO ve minikaÇOCUK çizgi filmleri, oyunlar, çizgi film galerileri, çocuk etkinlikleri, minika çocuk kulübü ve çok daha fazla eğlencenin yer aldığı çocuklara özel bir dünyadır." /> 
+
+
+    
+
+            <script type="text/javascript">
+                if (tmdCheckConsent('statistics')) {
+                    (function (i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+                    ga('create', 'UA-637743-9', 'auto');
+                    ga('send', 'pageview');
+                }
+            </script>
+
+</head>
+<body >
+    <audio id="myAudio">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/boing.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudioOne">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/magical-book.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudioTwo">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/bubble.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudioThree">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/magic-wand.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudioFour">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/swoosh.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudioFive">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/cartoon-slide-whistle-down.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudioSix">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/cartoon-whoopie-whistle-02.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudioSeven">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/cartoon-cute.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudioEight">
+        <source src="https://i.tmgrup.com.tr/minika/site/v1/s/bubble3.mp3" type="audio/mpeg">
+    </audio>
+
+    
+
+    
+
+
+<script src="https://i.tmgrup.com.tr/contactus/j/contactus.js?v26" type="text/javascript"></script>
+<script type="text/javascript">
+    var tmdContactUs_PID = 29;
+    var tmdContactUs_PageType = '';
+</script>
+
+<header class="siteHeader">
+    <div class="header-wrapper">
+        <div class="container"></div>
+        <div class="topnav" id="myTopnav">
+
+            <div class="mobile-area">
+
+                <a class="mobile-logo" href="/">
+                    <img src="https://i.tmgrup.com.tr/minika/site/v1/i/mobile-logo.png" width="206" height="74" alt="">
+                </a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    <img src="https://i.tmgrup.com.tr/minika/site/v1/i/hamburger-icon.svg" width="42" height="33">
+                </a>
+            </div>
+
+            <div class="menu-wrapper">
+                <ul>
+
+                    <li class="game">
+                        <a href="http://oyun.minika.com.tr" target="_blank">
+                            <i class="icon"></i>
+                            OYUN
+                        </a>
+                    </li>
+
+                    <li class="dergi-list">
+                        <a href="javascript:void(0);">
+                            <i class="icon"></i>
+                            DERGİ
+                            <i class="arrow-one down"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            <ul class="drop-container">
+                                <li>
+                                    <a href="http://www.minikacocukdergi.com.tr" target="_blank">
+                                        minikaÇOCUK Dergisi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.minikagodergi.com.tr" target="_blank">
+                                        minikaGo Dergisi
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="star">
+                        <a href="/etkinlik">
+                            <i class="icon"></i>
+                            ETKİNLİK
+                        </a>
+                    </li>
+                    <li class="music">
+                        <a href="/muzik">
+                            <i class="icon"></i>
+                            MÜZİK
+                        </a>
+                    </li>
+                    <li class="youtube">
+                        <a href="https://www.youtube.com/minika" target="_blank">
+                            <i class="icon"></i>
+                            YOUTUBE
+                        </a>
+                    </li>
+                    <li class="newsfamily">
+                        <a href="/mutlu-aile-rehberi">
+                            <i class="icon"></i>
+                            MUTLU AİLE REHBERİ
+                        </a>
+                    </li>
+
+                    <li class="web-hidden">
+                        <div class="cookie-widget-container">
+                            <div class="cookieWidgetWrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><circle cx="12" cy="12" r="12"></circle><path d="M15.094 13.978c-1.146 0-1.946-.813-1.946-1.978s.8-1.978 1.946-1.978c1.145 0 1.945.813 1.945 1.978s-.8 1.978-1.945 1.978M9.07 10.022h3.883l-.094.09c-.537.515-.844 1.203-.844 1.888 0 1.738 1.294 3 3.079 3 1.786 0 3.082-1.262 3.082-3s-1.296-3-3.082-3H9.079C7.295 9 6 10.262 6 12s1.295 3 3.079 3h2.144v-1.022H9.07c-1.136 0-1.932-.813-1.937-1.978 0-1.146.815-1.978 1.937-1.978" fill="#000"></path></g></svg>
+                            </div>
+                            <span>Çerez İzinleri</span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="social-wrapper">
+                <ul>
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/minika" target="_blank"></a>
+                    </li>
+
+                    <li>
+                        <a class="twitter" href="https://twitter.com/minika" target="_blank"></a>
+                    </li>
+
+                    <li>
+                        <a class="instagram" href="https://www.instagram.com/minika" target="_blank"></a>
+                    </li>
+
+                    <li>
+                        <a class="contact" contactus-popup="" id="contactLink"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+    
+
+
+
+<section class="pl-10">
+    <div class="container">
+        <div class="logo-wrapper">
+            <div class="planner-div beep" id="planner">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/ucak.png" width="67" height="80">
+            </div>
+            <div class="logo animated" onmouseover="myAudioFive()">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/minika-logo.png" width="202" height="64">
+            </div>
+            <div class="book-div" id="play-book">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/kitap.png" width="67" height="80">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pl-10">
+    <div class="container position-relative">
+        <div class="cxo">
+            <img src="https://i.tmgrup.com.tr/minika/site/v1/i/c-x.png" width="123" height="42">
+        </div>
+
+        <div class="minika-wrapper">
+            <div onmouseover="playAudioThree()" class="minika-cocuk-wrapper animated" onclick="window.location.href='https://www.minikacocuk.com.tr/'">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/minika-cocuk-logo.png" width="212" height="82">
+            </div>
+            <div onmouseover="playAudioThree()" class="go-minika animated" onclick="window.location.href='https://www.minikago.com.tr/'">
+                <img class="go-logo" src="https://i.tmgrup.com.tr/minika/site/v1/i/minika-go-logo.png" width="176" height="86">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="age-wrapper">
+            <div class="minika-age animated">
+                3 - 8 yaş
+            </div>
+            <div class="go-age animated">
+                7 - 14 yaş
+            </div>
+        </div>
+    </div>
+
+    <div class="video-wrapper">
+        <div class="video-area video-minika">
+            <div class="passive-line">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/line-1-passive.png" width="139" height="461">
+            </div>
+            <div class="line-1">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/line-1.png" width="150" height="316">
+            </div>
+            <div class="chem">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/deney-tupu.png" width="88" height="122">
+            </div>
+            <div class="light">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/ampul.png" width="66" height="78">
+            </div>
+            <div class="big-star">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/big-star.png" width="122" height="92">
+            </div>
+
+            <div id='html5playercontainer' onmouseover="playAudioTwo()">
+                <div id="Player">
+                    <div id='vid-container'>
+                        <div id="screen">
+                            <a href="https://www.minikacocuk.com.tr/webtv/canli-yayin" target="_blank">
+                                <img id='screen-button' src="https://i.tmgrup.com.tr/minika/site/v1/i/cocuk-play-icon.png">
+                            </a>
+                        </div>
+                        <video id='video' poster="https://ia.tmgrup.com.tr/648348/0/0/0/0/0/0?u=https://i.tmgrup.com.tr/mnka/cocuk/2021/03/22/160x135/1616428449339.png" class="video-left">
+                            <source src="">
+                            Your browser doesn't support this HTML5 Tag!
+                        </video>
+                    </div>
+
+                    <div id='pbar-container'>
+                        <div id='pbar'></div>
+                    </div>
+
+                    <div id='buttons-container'>
+                        <img id="play-button">
+                        <div id='time-field'>
+                            0:00 / 0:00
+                        </div>
+                        <img id="sound-button">
+                        <div id='sbar-container'>
+                            <div id="sbar"></div>
+                        </div>
+                        <img id="fullscreen-button">
+                    </div>
+                </div>
+            </div>
+            <div class="video-button-title">
+                <a href="https://www.minikacocuk.com.tr/yayin-akisi" target="_blank">ŞU AN YAYINDA <i class="arrow down"></i></a>
+            </div>
+            <div class="video-title">
+                Kaplan Daniel&#39;ın D&#252;nyası
+            </div>
+        </div>
+
+        <div class="video-area video-go">
+            <div class="passive-line-one">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/line-2-passive.png" width="193" height="398">
+            </div>
+            <div class="line-2">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/line-2.png" width="240" height="413">
+            </div>
+            <div class="pencil">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/kalem.png" width="59" height="74">
+            </div>
+
+            <div class="react">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/react.png" width="69" height="76">
+            </div>
+            <div class="ball">
+                <img src="https://i.tmgrup.com.tr/minika/site/v1/i/top.png" width="122" height="212">
+            </div>
+            <div id='html5playercontainer' onmouseover="playAudioTwo()">
+                <div id="Player">
+                    <div id='vid-container'>
+                        <div id="screen">
+                            <a href="https://www.minikago.com.tr/webtv/canli-yayin" target="_blank">
+                                <img id='screen-button' src="https://i.tmgrup.com.tr/minika/site/v1/i/go-play-icon.png">
+                            </a>
+                        </div>
+                        <video id='video' poster="https://ia.tmgrup.com.tr/3012ef/0/0/0/0/0/0?u=https://i.tmgrup.com.tr/mnka/go/2024/10/10/160x160/1728547171370.png">
+                            <source src="">
+                            Your browser doesn't support this HTML5 Tag!
+                        </video>
+                    </div>
+
+                    <div id='pbar-container'>
+                        <div id='pbar'></div>
+                    </div>
+
+                    <div id='buttons-container'>
+                        <img id="play-button">
+                        <div id='time-field'>
+                            0:00 / 0:00
+                        </div>
+                        <img id="sound-button">
+                        <div id='sbar-container'>
+                            <div id="sbar"></div>
+                        </div>
+                        <img id="fullscreen-button">
+                    </div>
+                </div>
+            </div>
+            <div class="video-button-title go">
+                <a href="https://www.minikago.com.tr/yayin-akisi" target="_blank">ŞU AN YAYINDA <i class="arrow down"></i></a>
+            </div>
+            <div class="video-title">
+                Buddybot
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+
+    
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <div class="footer-bottom">
+                    <ul>
+                        <li><a href="/hakkimizda">Hakkımızda</a></li>
+                        <li><a href="https://www.turkuvazdigital.com.tr/reklamcilarimiz" target="_blank">İnternet Reklam</a></li>
+                        <li><a href="/gizlilik-bildirimi">Gizlilik Politikamız</a></li>
+                        <li><a href="veri-politikasi">Veri Politikası</a></li>
+                        <li><a href="javascript:;" onclick="document.getElementById('contactLink').click()">Bize Ulaşın</a></li>
+
+                        <li><a href="/ebulten" target="_blank">EBülten</a></li>
+                        <li><a href="/sss">SSS</a></li>
+                        <li><a href="/guvenli-internet">Güvenli İnternet</a></li>
+                        <li><a href="/rss">Rss</a></li>
+                        <li>© 2024 minika. Tüm hakları saklıdır.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+    
+
+
+<!-- global scripts files -->
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/lazysizes.min.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/ls.unveilhooks.min.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/touchswipe.min.1.6.18.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/swiper.min.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/script.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/main.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/showcase.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/jquery.fancybox.pack.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/custom.js?v=15980"></script> 
+<script type="text/javascript" src="https://i.tmgrup.com.tr/minika/site/v1/j/pageskin.js?v=15980"></script> 
+<!-- /// -->
+<!-- END.global scripts files -->
+
+        <script type="text/javascript">
+            window.___gcfg = { lang: 'tr' };
+            (function () {
+                var po = document.createElement('script');
+                po.type = 'text/javascript';
+                po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+        <div id="fb-root"></div>
+        <script type="text/javascript">
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/tr_TR/all.js#xfbml=1&appId=198644300237293";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <script>
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+        </script>
+        <script type="text/javascript">
+                <!--//--><![CDATA[//><!--
+                if (tmdCheckConsent('statistics')) {
+                    var pp_gemius_identifier = 'bVpAVIuWKwEImKP4eSalPdUKzZANfQLE421u_pGu6NX.J7';
+                    // lines below shouldn't be edited
+                    function gemius_pending(i) { window[i] = window[i] || function () { var x = window[i + '_pdata'] = window[i + '_pdata'] || []; x[x.length] = arguments; }; };
+                    gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+                    (function (d, t) {
+                        try {
+                            var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol == 'https:') ? 's' : ''); gt.setAttribute('async', 'async');
+                            gt.setAttribute('defer', 'defer'); gt.src = l + '://tr.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt, s);
+                        } catch (e) { }
+                    })(document, 'script');
+                }
+                //--><!]]>
+        </script>
+
+
+<script type="text/javascript">
+    var _kvkkLink = "/veri-politikasi";
+</script>
+<script type="text/javascript" src="https://i.tmgrup.com.tr/tmd-consent/j/tmd-kvkk.js"></script>
+
+    
+                    <script type="text/javascript">
+                        <!--//--><![CDATA[//><!--
+                        
+                        var gemiusIds = { Web: '1_Xq_ONI9_ENqKEWlLrN.McPLTCwMMMYnr04UGt8wGP.r7', Mobile: '1_Xq_ONI9_ENqKEWlLrN.McPLTCwMMMYnr04UGt8wGP.r7' };
+                        var pp_gemius_identifier = (deviceInfo.isMobile ? gemiusIds.Mobile : gemiusIds.Web);
+                        var gemius_disable_back_cache_hits = true;
+                        // lines below shouldn't be edited
+                        function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+                        gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+                        (function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+                        gt.setAttribute('defer','defer'); gt.src=l+'://tr.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+                        //--><!]]>
+                    </script>
+
+    <div data-mbzone="PageOverlay" data-wbzone="PageOverlay"></div>
+
+    <div data-wbzone="pageskin"></div>
+
+    
+
+    
+
+    
+</body>
+</html>

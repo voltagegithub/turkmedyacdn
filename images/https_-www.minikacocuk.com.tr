@@ -1,0 +1,1068 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. -->
+    <link href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/i/favicon.ico" rel="SHORTCUT ICON" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/i/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/i/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/i/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/i/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/i/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/i/apple-touch-icon-180x180.png" />
+
+    <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
+    <link rel="icon" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/i/favicon.png">
+    
+
+
+ <link rel="canonical" href="https://www.minikacocuk.com.tr" /> 
+ <meta property="fb:pages" content="122278061175230" /> 
+<title>minika ÇOCUK - Çizgi filmler, çocuklar için online oyunlar, videolar ve yarışmalar</title> 
+ <meta name="Description" content="minika ÇOCUK, 3-8 yaş çocuklara, çizgi filmler, ücretsiz ve eğitici oyunlar, ücretsiz etkinlikler, eğlenceli bir dünya sunar." /> 
+
+    
+
+
+    <script type="text/javascript">
+        if (typeof GlobalVariables === 'undefined')
+            GlobalVariables = {};
+
+
+        if (typeof GlobalVariables.CustomDimensions === 'undefined')
+            GlobalVariables.CustomDimensions = {};
+
+        var _gaParams = {};
+        _gaParams.hitType = "pageView";
+        _gaParams.location = document.location.href;
+        _gaParams.page = document.location.pathname + document.location.search;
+
+        Object.keys(GlobalVariables.CustomDimensions).forEach(function (key) {
+            _gaParams[key] = GlobalVariables.CustomDimensions[key];
+        });
+
+        try {
+            if (typeof tmdCheckConsent === "undefined" || tmdCheckConsent('statistics')) {
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-637743-17', 'auto');
+                ga('send', _gaParams);
+            }
+        }
+        catch (e)
+        {
+            console.log(e);
+        }
+    </script>
+
+    
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSMZMDPLQC"></script>
+    <script>
+        if (typeof GlobalVariables === 'undefined')
+            GlobalVariables = {};
+
+
+        if (typeof GlobalVariables.CustomDimensions === 'undefined')
+            GlobalVariables.CustomDimensions = {};
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-TSMZMDPLQC', {
+            'send_page_view': false
+        });
+
+        sendPageViewGA4(JSON.stringify(GlobalVariables.CustomDimensions) === JSON.stringify({}) ? null : GlobalVariables.CustomDimensions);
+
+        function sendPageViewGA4(customDimensions) {
+            try {
+                if (typeof (customDimensions) != "undefined" && customDimensions != null) {
+                    gtag('event', 'page_view', {
+                        'page_title': document.title
+                        , 'page_path': document.location.pathname + document.location.search
+                        , 'send_to': 'G-TSMZMDPLQC'
+                        , 'cd1': typeof customDimensions.dimension1 != 'undefined' ? customDimensions.dimension1 : typeof customDimensions.cd1 != 'undefined' ? customDimensions.cd1 : ''
+                        , 'cd2': typeof customDimensions.dimension2 != 'undefined' ? customDimensions.dimension2 : typeof customDimensions.cd2 != 'undefined' ? customDimensions.cd2 : ''
+                        , 'cd3': typeof customDimensions.dimension3 != 'undefined' ? customDimensions.dimension3 : typeof customDimensions.cd3 != 'undefined' ? customDimensions.cd3 : ''
+                        , 'cd4': typeof customDimensions.dimension4 != 'undefined' ? customDimensions.dimension4 : typeof customDimensions.cd4 != 'undefined' ? customDimensions.cd4 : ''
+                        , 'cd5': typeof customDimensions.dimension5 != 'undefined' ? customDimensions.dimension5 : typeof customDimensions.cd5 != 'undefined' ? customDimensions.cd5 : ''
+                        , 'cd6': typeof customDimensions.dimension6 != 'undefined' ? customDimensions.dimension6 : typeof customDimensions.cd6 != 'undefined' ? customDimensions.cd6 : ''
+                        , 'cd7': typeof customDimensions.dimension7 != 'undefined' ? customDimensions.dimension7 : typeof customDimensions.cd7 != 'undefined' ? customDimensions.cd7 : ''
+                        , 'cd8': typeof customDimensions.dimension8 != 'undefined' ? customDimensions.dimension8 : typeof customDimensions.cd8 != 'undefined' ? customDimensions.cd8 : ''
+                    });
+                }
+                else {
+                    gtag('event', 'page_view', {
+                        'page_title': document.title
+                        , 'page_path': document.location.pathname + document.location.search
+                        , 'send_to': 'G-TSMZMDPLQC'
+                    });
+                }
+            } catch (e) { console.log(e) }
+        }
+
+        function sendPageViewGA4(customDimensions, url) {
+            try {
+                if (typeof (customDimensions) != "undefined" && customDimensions != null) {
+                    gtag('event', 'page_view', {
+                        'page_title': document.title
+                        , 'page_path': url
+                        , 'send_to': 'G-TSMZMDPLQC'
+                        , 'cd1': typeof customDimensions.dimension1 != 'undefined' ? customDimensions.dimension1 : typeof customDimensions.cd1 != 'undefined' ? customDimensions.cd1 : ''
+                        , 'cd2': typeof customDimensions.dimension2 != 'undefined' ? customDimensions.dimension2 : typeof customDimensions.cd2 != 'undefined' ? customDimensions.cd2 : ''
+                        , 'cd3': typeof customDimensions.dimension3 != 'undefined' ? customDimensions.dimension3 : typeof customDimensions.cd3 != 'undefined' ? customDimensions.cd3 : ''
+                        , 'cd4': typeof customDimensions.dimension4 != 'undefined' ? customDimensions.dimension4 : typeof customDimensions.cd4 != 'undefined' ? customDimensions.cd4 : ''
+                        , 'cd5': typeof customDimensions.dimension5 != 'undefined' ? customDimensions.dimension5 : typeof customDimensions.cd5 != 'undefined' ? customDimensions.cd5 : ''
+                        , 'cd6': typeof customDimensions.dimension6 != 'undefined' ? customDimensions.dimension6 : typeof customDimensions.cd6 != 'undefined' ? customDimensions.cd6 : ''
+                        , 'cd7': typeof customDimensions.dimension7 != 'undefined' ? customDimensions.dimension7 : typeof customDimensions.cd7 != 'undefined' ? customDimensions.cd7 : ''
+                        , 'cd8': typeof customDimensions.dimension8 != 'undefined' ? customDimensions.dimension8 : typeof customDimensions.cd8 != 'undefined' ? customDimensions.cd8 : ''
+                    });
+                }
+                else {
+                    gtag('event', 'page_view', {
+                        'page_title': document.title
+                        , 'page_path': url
+                        , 'send_to': 'G-TSMZMDPLQC'
+                    });
+                }
+            } catch (e) { console.log(e) }
+        }
+
+        function sendActionGA4(eventCategory, eventAction, eventLabel, value) {
+            try {
+                if (typeof (value) != "undefined" && value != null) {
+                    gtag('event', eventAction, {
+                        'page_title': document.title
+                        , 'page_path': document.location.pathname + document.location.search
+                        , 'send_to': 'G-TSMZMDPLQC'
+                        , 'event_category': eventCategory
+                        , 'event_label': eventLabel
+                        , 'value': value
+                    });
+                }
+                else {
+                    gtag('event', eventAction, {
+                        'page_title': document.title
+                        , 'page_path': document.location.pathname + document.location.search
+                        , 'send_to': 'G-TSMZMDPLQC'
+                        , 'event_category': eventCategory
+                        , 'event_label': eventLabel
+                    });
+                }
+            } catch (e) { console.log(e) }
+
+        }
+
+        function sendActionGA4WithCD(eventCategory, eventAction, eventLabel, value, cdList) {
+            try {
+                if (typeof (value) != "undefined" && value != null) {
+                    gtag('event', eventAction, {
+                        'page_title': document.title
+                        , 'page_path': document.location.pathname + document.location.search
+                        , 'send_to': 'G-TSMZMDPLQC'
+                        , 'event_category': eventCategory
+                        , 'event_label': eventLabel
+                        , 'value': value
+                        , 'cd1': typeof cdList[0] != 'undefined' ? cdList[0] : ''
+                        , 'cd2': typeof cdList[1] != 'undefined' ? cdList[1] : ''
+                        , 'cd3': typeof cdList[2] != 'undefined' ? cdList[2] : ''
+                        , 'cd4': typeof cdList[3] != 'undefined' ? cdList[3] : ''
+                        , 'cd5': typeof cdList[4] != 'undefined' ? cdList[4] : ''
+                        , 'cd6': typeof cdList[5] != 'undefined' ? cdList[5] : ''
+                        , 'cd7': typeof cdList[6] != 'undefined' ? cdList[6] : ''
+                        , 'cd8': typeof cdList[7] != 'undefined' ? cdList[7] : ''
+                    });
+                }
+                else {
+                    gtag('event', eventAction, {
+                        'page_title': document.title
+                        , 'page_path': document.location.pathname + document.location.search
+                        , 'send_to': 'G-TSMZMDPLQC'
+                        , 'event_category': eventCategory
+                        , 'event_label': eventLabel
+                        , 'cd1': typeof cdList[0] != 'undefined' ? cdList[0] : ''
+                        , 'cd2': typeof cdList[1] != 'undefined' ? cdList[1] : ''
+                        , 'cd3': typeof cdList[2] != 'undefined' ? cdList[2] : ''
+                        , 'cd4': typeof cdList[3] != 'undefined' ? cdList[3] : ''
+                        , 'cd5': typeof cdList[4] != 'undefined' ? cdList[4] : ''
+                        , 'cd6': typeof cdList[5] != 'undefined' ? cdList[5] : ''
+                        , 'cd7': typeof cdList[6] != 'undefined' ? cdList[6] : ''
+                        , 'cd8': typeof cdList[7] != 'undefined' ? cdList[7] : ''
+                    });
+                }
+            } catch (e) { console.log(e) }
+
+        }
+
+    </script>
+
+
+    
+
+        <link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/bootstrap-grid.css?v=18830" />
+
+        <link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/base.css?v=18830" />
+
+        <link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/animate.css?v=18830" />
+
+        <link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/swiper.min.css?v=18830" />
+
+        <link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/header.css?v=18830" />
+
+        <link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/showcase.css?v=18830" />
+
+        <link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/slick.min.css?v=18830" />
+
+        <link rel="stylesheet" type="text/css" href="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/main-slider.css?v=18830" />
+
+
+        <script  type="text/javascript" src="https://i.tmgrup.com.tr/tmd-consent/j/tmdconsent-v2.2.js?v=18830" ></script>
+
+        <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/jquery.3.3.1.min.js?v=18830" ></script>
+
+
+        <script src="https://i.tmgrup.com.tr/tmd/mobile-detect/md2.min.js?v=733" type="text/javascript"></script><script src="https://i.tmgrup.com.tr/tmd/tmdbr.min.js?v=733" type="text/javascript"></script>
+    <script async=async src=https://securepubads.g.doubleclick.net/tag/js/gpt.js></script><script async=async src=https://static.criteo.net/js/ld/publishertag.js></script><script>function bdGetCookie(n){for(var i,r=n+"=",u=r.length,f=document.cookie.length,t=0;f>t;){if(i=t+u,document.cookie.substring(t,i)==r)return bdGetCookieVal(i);if(0==(t=document.cookie.indexOf(" ",t)+1))break}return null}function bdGetCookieVal(n){var t=document.cookie.indexOf(";",n);return-1==t&&(t=document.cookie.length),unescape(document.cookie.substring(n,t))}function bdDeleteCookie(n,t,i){bdGetCookie(n)&&(document.cookie=n+"="+(t?"; path="+t:"")+(i?"; domain="+i:"")+"; expires=Thu, 01-Jan-70 00:00:01 GMT")}function bdSetCookie(n,t,i,r,u,f){document.cookie=n+"="+escape(t)+(i?"; expires="+i:"")+(r?"; path="+r:"")+(u?"; domain="+u:"")+(f?"; secure":"")}function bdGetDocumentHeight(){return $(window).height()}function bdHide970x250(){googletag.pubads().clear([bdSlots.slot_d_970x250]);$("#id_d_970x250").prepend('<div class="slot_control" style="float:right; cursor:pointer; font-size:small; font-family:sans-serif; background-color:rgba(0, 0, 0, 0.1); padding:1px 5px 1px 5px; color:rgba(94, 102, 81, 0.85); " onClick="bdShow970x250();">Reklamı Göster<\/div>');$("#id_d_970x250").show();$("#id_d_970x250").css("margin-bottom","25px")}function bdShow970x250(){$(".slot_control").length>0&&$(".slot_control").remove();googletag.cmd.push(function(){bdSlots.slot_d_970x250.clearTargeting();googletag.pubads().refresh([bdSlots.slot_d_970x250])});$("#id_d_970x250").css("margin-bottom","15px")}</script><script>var googletag=googletag||{},bdSlots;googletag.cmd=googletag.cmd||[];bdSlots=bdSlots||{};googletag.cmd.push(function(){deviceInfo.isMobile?(bdSlots.slot_m_300x250=googletag.defineSlot("/31110078/minikacocuk/mobile_web/sitegeneli/300x250",[300,250],"id_m_300x250").setTargeting("kv_size","300x250").addService(googletag.pubads()),bdSlots.slot_m_300x250_2=googletag.defineSlot("/31110078/minikacocuk/mobile_web/sitegeneli/300x250_2",[300,250],"id_m_300x250_2").setTargeting("kv_size","300x250_2").addService(googletag.pubads()),bdSlots.slot_m_300x250_3=googletag.defineSlot("/31110078/minikacocuk/mobile_web/sitegeneli/300x250_3",[300,250],"id_m_300x250_3").setTargeting("kv_size","300x250_3").addService(googletag.pubads()),bdSlots.slot_m_300x250_4=googletag.defineSlot("/31110078/minikacocuk/mobile_web/sitegeneli/300x250_4",[300,250],"id_m_300x250_4").setTargeting("kv_size","300x250_4").addService(googletag.pubads()),bdSlots.slot_m_custombox=googletag.defineSlot("/31110078/minikacocuk/mobile_web/sitegeneli/custombox",[[320,142],[320,100],[320,50],[970,250]],"id_m_custombox").setTargeting("kv_size","custombox").addService(googletag.pubads()),bdSlots.slot_m_po=googletag.defineOutOfPageSlot("/31110078/minikacocuk/mobile_web/sitegeneli/pageoverlay","id_m_po").setTargeting("kv_size","pageoverlay").addService(googletag.pubads())):(deviceInfo.isMobile||deviceInfo.isTablet||(bdSlots.slot_d_pageskin_master=googletag.defineSlot("/31110078/minikacocuk/desktop_web/sitegeneli/pageskin_master",[[500,1e3],[160,600],[120,600]],"id_d_ps_left").setTargeting("kv_size","pageskin_master").addService(googletag.pubads()),bdSlots.slot_d_pageskin_companion_right=googletag.defineSlot("/31110078/minikacocuk/desktop_web/sitegeneli/pageskin_companion_right",[[160,600],[120,600],[500,1001]],"id_d_ps_right").setTargeting("kv_size","pageskin_companion_right").addService(googletag.pubads())),bdSlots.slot_d_970x250=googletag.defineSlot("/31110078/minikacocuk/desktop_web/sitegeneli/970x250",[[970,250],[970,90],[970,91],[970,350]],"id_d_970x250").setTargeting("kv_size","970x250").addService(googletag.pubads()),bdSlots.slot_d_300x250=googletag.defineSlot("/31110078/minikacocuk/desktop_web/sitegeneli/300x250",[[300,250],[405,454]],"id_d_300x250").setTargeting("kv_size","300x250").addService(googletag.pubads()),bdSlots.slot_d_300x250_2=googletag.defineSlot("/31110078/minikacocuk/desktop_web/sitegeneli/300x250_2",[300,250],"id_d_300x250_2").setTargeting("kv_size","300x250_2").addService(googletag.pubads()),bdSlots.slot_d_300x250_3=googletag.defineSlot("/31110078/minikacocuk/desktop_web/sitegeneli/300x250_3",[300,250],"id_d_300x250_3").setTargeting("kv_size","300x250_3").addService(googletag.pubads()),bdSlots.slot_d_300x250_4=googletag.defineSlot("/31110078/minikacocuk/desktop_web/sitegeneli/300x250_4",[300,250],"id_d_300x250_4").setTargeting("kv_size","300x250_4").addService(googletag.pubads()),bdSlots.slot_d_po=googletag.defineOutOfPageSlot("/31110078/minikacocuk/desktop_web/sitegeneli/pageoverlay","id_d_po").setTargeting("kv_size","pageoverlay").addService(googletag.pubads()));window.location.pathname.split("/").length>2&&googletag.pubads().setTargeting("kv_detay","1");googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs(!0);googletag.pubads().addEventListener("slotRenderEnded",function(n){var r=$("#"+n.slot.getSlotElementId()),i,t;n.slot==bdSlots.slot_d_pageskin_companion_right&&n.campaignId==389705318&&window.addEventListener("scroll",function(){$("#id_d_ps_right").css("top",-document.documentElement.scrollTop)});n.slot==bdSlots.slot_d_pageskin_companion_top&&n.isEmpty&&($("._pageSkinTop").remove(),console.log("_pageskinTop removed!"));n.slot==bdSlots.slot_d_970x250?(console.log("elementId:"+n.slot.getSlotElementId()+" campaignId: "+n.campaignId),n.isEmpty||n.size[1]==350||n.size[1]==91||n.size[1]==90||(i='<div class="slot_control" style="float:right; cursor:pointer; font-size:small; font-family:sans-serif; background-color:rgba(0, 0, 0, 0.1); padding:1px 5px 1px 5px; color:rgba(94, 102, 81, 0.85); " onClick="bdHide970x250();">Reklamı Kapat<\/div>',r.prepend(i))):n.slot==bdSlots.slot_d_728x90&&(n.isEmpty||(t=$(".advertControlArea").height()+90,$(".pageSkinRight").css({top:t}),$(".pageSkinLeft").css({top:t})))});googletag.enableServices()})</script>
+    
+    
+
+</head>
+<body class="" style="background-image: url('https://i.tmgrup.com.tr/mnka/cocuk/2020/09/03/1599152513758.png')">
+
+
+
+<header class="main-header">
+    <div class="header-character">
+        <div class="character-slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                            <a href="/programlar/maceraci-yuzgecler" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599732939921.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/neseli-dunyam" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599744387907.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/oggy-oggy" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2024/09/06/300x320/1725609092016.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/bi-adada-bi-arada" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2024/03/20/300x320/1710921853978.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/kucuk-prens-ve-arkadaslari" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2024/05/22/300x320/1716379680687.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/edmond-ve-lucy" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2023/08/25/300x320/1692968728236.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/tinpo" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2022/10/31/300x320/1667206746429.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/kuzugiller" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2022/04/30/300x320/1651266036978.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/turbozaurs" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2022/10/24/300x320/1666616388636.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/dino-sehri" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2022/07/06/300x320/1657113445666.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/amber-ile-guvenli-yasiyorum" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2023/04/28/300x320/1682681815140.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/roy-ile-yangindan-korunuyorum" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2023/04/28/300x320/1682682834554.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/cleo-cuquin" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2021/09/24/300x320/1632485478047.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/robot-trenler" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599744974264.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/kitap-kurdu-ayiciklar" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2021/06/28/300x320/1624890155264.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/sevimli-ufakliklar" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2021/04/27/300x320/1619524363538.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/meteoheroes" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2021/04/18/300x320/1618699937348.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/kaplan-danielin-dunyasi" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2021/03/22/300x320/1616428408752.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/enchantimals" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2021/01/25/300x320/1611566632602.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/kahraman-okulu" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/12/28/300x320/1609172986710.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/kukuli" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/11/03/300x320/1604387840177.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/briko" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/11/03/300x320/1604407660655.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/damlanin-dolabi" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599733276491.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/tatli-kedicikler" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599744461416.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/ricky-zoom" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599744475838.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/robocar-poli" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599744517176.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/lunanin-bilim-dunyasi" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599733744890.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/gokkusagi-ruby" class="character-slider-item swiper-slide animated">
+                                <img src="https://i.tmgrup.com.tr/mnka/cocuk/2020/09/10/300x320/1599733300234.png" class="animated" alt="" />
+                            </a>
+                            <a href="/programlar/poli-ile-trafigi-ogreniyorum" class="character-slider-item swiper-slide animated">
+                                <img class="animated" alt="" />
+                            </a>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+
+            <div class="swiper-button-prev animated slideInLeft">
+                <span class="arrow-icon"><span class="right-bar"></span><span class="left-bar"></span></span>
+            </div>
+            <div class="swiper-button-next animated slideInRight">
+                <span class="arrow-icon"><span class="right-bar"></span><span class="left-bar"></span></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-lg-center">
+            <div class="col-12 col-xl-auto">
+                <div class="header-content">
+                    <h1 class="logo">
+                        <a href="/"></a>
+                        Minika Çocuk
+                    </h1>
+                    <a href="javascript:;" class="mobile-menu"></a>
+                    <div class="header-menu">
+                        <nav class="menu">
+                            <div class="nav-item">
+                                <a href="/">
+                                    <i class="icon-home"></i>
+                                    <span>ANA SAYFA</span>
+                                </a>
+                            </div>
+                            <div class="nav-item programs">
+                                <a href="/programlar">
+                                    <i class="icon-startup"></i>
+                                    <span>PROGRAMLAR</span>
+                                </a>
+                                <ul class="sub-menu animated">
+                                            <li><a href="/programlar/maceraci-yuzgecler"><span class="text">Maceracı Y&#252;zge&#231;ler</span> <span class="img animated"><img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://i.tmgrup.com.tr/mnka/cocuk/2020/08/18/186x157/1597746511268.png" data-loadMode="0" alt="" class="lazyload" /></span></a></li>
+                                            <li><a href="/programlar/neseli-dunyam"><span class="text">Neşeli D&#252;nyam</span> <span class="img animated"><img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://i.tmgrup.com.tr/mnka/cocuk/2020/08/18/186x157/1597746566096.png" data-loadMode="0" alt="" class="lazyload" /></span></a></li>
+                                            <li><a href="/programlar/oggy-oggy"><span class="text">Oggy Oggy</span> <span class="img animated"><img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://i.tmgrup.com.tr/mnka/cocuk/2024/09/06/186x157/1725609918822.png" data-loadMode="0" alt="" class="lazyload" /></span></a></li>
+                                            <li><a href="/programlar/bi-adada-bi-arada"><span class="text">Bi&#39; Adada Bi&#39; Arada</span> <span class="img animated"><img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://i.tmgrup.com.tr/mnka/cocuk/2024/03/20/186x157/1710921505812.png" data-loadMode="0" alt="" class="lazyload" /></span></a></li>
+                                            <li><a href="/programlar/kucuk-prens-ve-arkadaslari"><span class="text">K&#252;&#231;&#252;k Prens ve Arkadaşları</span> <span class="img animated"><img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://i.tmgrup.com.tr/mnka/cocuk/2024/05/22/186x157/1716379654882.png" data-loadMode="0" alt="" class="lazyload" /></span></a></li>
+                                            <li><a href="/programlar/edmond-ve-lucy"><span class="text">Edmond ve Lucy</span> <span class="img animated"><img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://i.tmgrup.com.tr/mnka/cocuk/2023/08/25/186x157/1692968623078.png" data-loadMode="0" alt="" class="lazyload" /></span></a></li>
+                                            <li><a href="/programlar/tinpo"><span class="text">Tinpo</span> <span class="img animated"><img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://i.tmgrup.com.tr/mnka/cocuk/2022/10/31/186x157/1667206657513.png" data-loadMode="0" alt="" class="lazyload" /></span></a></li>
+                                            <li><a href="/programlar/kuzugiller"><span class="text">Kuzugiller</span> <span class="img animated"><img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://i.tmgrup.com.tr/mnka/cocuk/2022/04/30/186x157/1651266135801.png" data-loadMode="0" alt="" class="lazyload" /></span></a></li>
+                                    <li class="all"><a href="/programlar">Tüm Programlar</a></li>
+                                </ul>
+                            </div>
+                            <div class="nav-item">
+                                <a href="/yayin-akisi">
+                                    <i class="icon-clock"></i>
+                                    <span>YAYIN AKIŞI</span>
+                                </a>
+                            </div>
+                            <div class="nav-item">
+                                <a href="/webtv">
+                                    <i class="icon-play"></i>
+                                    <span>VİDEO</span>
+                                </a>
+                            </div>
+                            <div class="nav-item">
+                                <a href="/webtv/canli-yayin">
+                                    <i class="icon-television"></i>
+                                    <span>CANLI YAYIN</span>
+                                </a>
+                            </div>
+                        </nav>
+                        <div class="header-logo">
+                            <a href="http://oyun.minika.com.tr/" class="header-logo-03"</a>
+                            <a href="https://minikago.com.tr/" class="header-logo-01"></a>
+                            <a href="http://www.minikacocukdergi.com.tr/" class="header-logo-02"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</header>
+    <div class="billBoardFrame" data-showifexist><div data-mbzone="960x250" data-wbzone="960x250"></div></div>
+
+    
+
+
+
+
+
+
+
+<section>
+    <h2 class="hidden">Minika Çocuk</h2>
+
+    <div class="main-slider">
+
+                <a href="https://www.minikacocuk.com.tr/programlar/bi-adada-bi-arada">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none"><![endif]-->
+                        <source srcset="https://ia.tmgrup.com.tr/5a635c/420/201/0/0/420/201?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/03/20/bi-adada-bi-arada-1710922839490.png" media="(min-width: 425px)" />
+                        <!--[if IE 9]></video><![endif]-->
+
+                        <img src="https://ia.tmgrup.com.tr/5a635c/420/201/0/0/420/201?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/03/20/bi-adada-bi-arada-1710922839490.png" data-loadMode="0" alt="" class="lazyload" /> <!-- mobile -->
+                    </picture>
+                    
+                </a>
+                <a href="https://www.minikacocuk.com.tr/programlar/neseli-dunyam">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none"><![endif]-->
+                        <source srcset="https://ia.tmgrup.com.tr/b4a1d0/420/201/0/0/420/201?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/12/31/neseli-dunyam-minika-cocukta-1609417143948.png" media="(min-width: 425px)" />
+                        <!--[if IE 9]></video><![endif]-->
+
+                        <img src="https://ia.tmgrup.com.tr/b4a1d0/420/201/0/0/420/201?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/12/31/neseli-dunyam-minika-cocukta-1609417143948.png" data-loadMode="0" alt="" class="lazyload" /> <!-- mobile -->
+                    </picture>
+                    
+                </a>
+                <a href="https://www.minikacocuk.com.tr/programlar/kucuk-prens-ve-arkadaslari">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none"><![endif]-->
+                        <source srcset="https://ia.tmgrup.com.tr/cbdad8/624/340/19/0/388/201?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/05/22/robot-trenler-1716380050060.jpg" media="(min-width: 425px)" />
+                        <!--[if IE 9]></video><![endif]-->
+
+                        <img src="https://ia.tmgrup.com.tr/5bf1fe/390/213/20/0/388/201?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/05/22/robot-trenler-1716380050060.jpg" data-loadMode="0" alt="" class="lazyload" /> <!-- mobile -->
+                    </picture>
+                    
+                </a>
+                <a href="https://www.minikacocuk.com.tr/programlar/robot-trenler">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none"><![endif]-->
+                        <source srcset="https://ia.tmgrup.com.tr/b4ea57/420/201/0/0/402/192?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/08/16/ayicik-bombo-1723804497678.jpg" media="(min-width: 425px)" />
+                        <!--[if IE 9]></video><![endif]-->
+
+                        <img src="https://ia.tmgrup.com.tr/b4ea57/420/201/0/0/402/192?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/08/16/ayicik-bombo-1723804497678.jpg" data-loadMode="0" alt="" class="lazyload" /> <!-- mobile -->
+                    </picture>
+                    
+                </a>
+                <a href="https://www.minikacocuk.com.tr/programlar/kaplan-danielin-dunyasi">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none"><![endif]-->
+                        <source srcset="https://ia.tmgrup.com.tr/a3181c/420/201/0/0/402/192?u=https://i.tmgrup.com.tr/mnka/cocuk/2021/03/22/kaplan-danielin-dunyasi-yakinda-1616430273105.png" media="(min-width: 425px)" />
+                        <!--[if IE 9]></video><![endif]-->
+
+                        <img src="https://ia.tmgrup.com.tr/a3181c/420/201/0/0/402/192?u=https://i.tmgrup.com.tr/mnka/cocuk/2021/03/22/kaplan-danielin-dunyasi-yakinda-1616430273105.png" data-loadMode="0" alt="" class="lazyload" /> <!-- mobile -->
+                    </picture>
+                    
+                </a>
+                <a href="https://www.minikacocuk.com.tr/programlar/kukuli">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none"><![endif]-->
+                        <source srcset="https://ia.tmgrup.com.tr/f80737/420/201/0/0/420/201?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/11/09/kukuli-minikacocukta-1604930043036.png" media="(min-width: 425px)" />
+                        <!--[if IE 9]></video><![endif]-->
+
+                        <img src="https://ia.tmgrup.com.tr/f80737/420/201/0/0/420/201?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/11/09/kukuli-minikacocukta-1604930043036.png" data-loadMode="0" alt="" class="lazyload" /> <!-- mobile -->
+                    </picture>
+                    
+                </a>
+
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+                <div class="streaming-band">
+                    <span>
+                        Şimdi:
+                        <a href="/webtv/canli-yayin" class="norm">Amber ile G&#252;vende Yaşıyorum</a>
+                        <a href="/yayin-akisi" class="norm small-norm" id="next-program">Sırada ne var?</a>
+
+                    </span>
+                </div>
+        </div>
+    </div>
+
+    
+<div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="https://www.minikacocuk.com.tr/programlar/cleo-cuquin" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/671e9d/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/08/16/ayicik-bombo-nisan-tanitim-1723804927312.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/9ebdc2/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/08/16/ayicik-bombo-nisan-tanitim-1723804951605.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Cleo &amp; Cuquin</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="https://www.minikacocuk.com.tr/programlar/briko" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/eab315/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2021/02/01/briko-subat-tanitim-1612176274379.png" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/fe4469/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2021/02/01/briko-subat-tanitim-1612176316106.png" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Briko</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="https://www.minikacocuk.com.tr/programlar/kaplan-danielin-dunyasi" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/0948aa/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/02/23/kaplan-danielin-dunyasi-1708683122782.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/5f31df/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/02/23/kaplan-danielin-dunyasi-1708683122782.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Kaplan Danielın D&#252;nyası</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated showcase-large">
+                <a href="/programlar/maceraci-yuzgecler" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/eb2d73/834/340/0/0/834/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/07/02/maceraci-yuzgecler-tanitim-1719908430226.jpg" media="(min-width: 992px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/e341b2/190/161/432/0/834/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/07/02/maceraci-yuzgecler-tanitim-1719908430226.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Maceracı Y&#252;zge&#231;ler | Tanıtım</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-10 col-12">
+        <div class="advers-box custom-ad">
+            <div class="item">
+                <div data-mbzone="300x250" data-wbzone="300x250"></div>
+            </div>
+        </div>
+    </div>
+
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="http://oyun.minika.com.tr/oyun/beceri/2020/08/06/tatli-kedicikler-yapboz-oyunu" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/df0d7d/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/08/31/1598860570152.png" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/8f5970/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/01/tatli-kedicikler-yapboz-oyunu-1598960048414.png" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon game ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Tatlı Kedicikler - Yapboz Oyunu</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="http://oyun.minika.com.tr/oyun/macera/2019/02/15/maceraci-yuzgecler" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/326182/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/01/maceraci-yuzgecler-oyunu-1598961664840.png" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/c5ef75/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/01/maceraci-yuzgecler-oyunu-1598961679141.png" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon game ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Maceracı Y&#252;zge&#231;ler Oyunu</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="https://www.minikacocuk.com.tr/webtv/robocar-poli/bolum/robocar-poli-temmuz-tanitim-1625149614" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/fe21c4/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/11/20/robocar-poli-bolumleri-minika-cocukta-1605885698942.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/11026e/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/11/20/robocar-poli-bolumleri-minika-cocukta-1605885705401.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Robocar Poli B&#246;l&#252;mleri minika &#199;OCUK&#39;ta</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated showcase-large">
+                <a href="/programlar/neseli-dunyam" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/534d0f/834/340/0/0/834/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/1600783198968.jpg" media="(min-width: 992px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/789c62/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/1600783253350.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Neşeli D&#252;nyam minika &#199;OCUK&#39;ta</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="/programlar/ricky-zoom" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/aa8bf6/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/01/ricky-zoom-yeni-bolumleri-minika-cocukta-1598965176015.png" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/70c65d/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/01/ricky-zoom-yeni-bolumleri-minika-cocukta-1598965178168.png" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Ricky Zoom minika &#199;OCUK&#39;ta</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="https://www.minikacocuk.com.tr/programlar/turbozaurs" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/b1f24d/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/08/16/homur-gumur-bolumleri-minika-cocukta-1723805334599.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/6c9372/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2024/08/16/homur-gumur-bolumleri-minika-cocukta-1723805334599.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Turbozaurs</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="/galeri/twirlywoos/twirlywoos" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/caea27/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/08/31/1598860997409.png" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/0008f3/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/01/twirlywoos-yeni-sezon-galeri-1598960101598.png" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon gallery ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Twirlywoos - Yeni Sezon Galeri</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="http://oyun.minika.com.tr/oyun/yaris/2019/09/05/ricky-zoom" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/ac93e4/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/01/ricky-zoom-oyunu-1598967068591.png" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/ee3b70/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/01/ricky-zoom-oyunu-1598967073314.png" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon game ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Ricky Zoom Oyunu</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="https://www.minikacocuk.com.tr/programlar/thomas-ve-arkadaslari" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/9f1332/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/thomas-ve-arkadaslari-bolumleri-minika-cocukta-1600784066904.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/8b7a2f/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/thomas-ve-arkadaslari-bolumleri-minika-cocukta-1600784073199.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Thomas ve Arkadaşları B&#246;l&#252;mleri minika &#199;OCUK&#39;ta</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="/programlar/my-little-pony" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/a96e81/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/my-little-ponny-bolumleri-minika-cocukta-1600784463241.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/4d6f81/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/my-little-ponny-bolumleri-minika-cocukta-1600784461683.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">My Little Ponny B&#246;l&#252;mleri minika &#199;OCUK&#39;ta</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="/programlar/molang" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/57f1fc/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/molang-bolumleri-minika-cocukta-1600784660846.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/07af7d/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/molang-bolumleri-minika-cocukta-1600784661931.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Molang B&#246;l&#252;mleri minika &#199;OCUK&#39;ta</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="/programlar/bob-usta" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/79dda0/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/bob-usta-bolumleri-minika-cocukta-1600784827317.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/12101d/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/bob-usta-bolumleri-minika-cocukta-1600784831201.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Bob Usta B&#246;l&#252;mleri minika &#199;OCUK&#39;ta</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="https://www.minikacocuk.com.tr/programlar/kukuli" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/27903a/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/11/12/kukuli-kasim-tanitim-1605167360712.png" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/605f45/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/11/12/kukuli-kasim-tanitim-1605167489150.png" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Kukuli | Tanıtım</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-9 col-12 scroll-animate">
+            <div class="showcase animated">
+                <a href="/programlar/lunanin-bilim-dunyasi" class="showcase-content">
+                    <picture class="img">
+                        <source srcset="https://i.tmgrup.com.tr/i/i.gif" data-srcset="https://ia.tmgrup.com.tr/b1c7a0/402/340/0/0/402/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/lunanin-bilim-dunyasi-bolumleri-minika-cocukta-1600785083366.jpg" media="(min-width: 768px)" />
+                        <img src="https://i.tmgrup.com.tr/i/i.gif" data-src="https://ia.tmgrup.com.tr/65e57a/190/161/0/0/401/340?u=https://i.tmgrup.com.tr/mnka/cocuk/2020/09/22/lunanin-bilim-dunyasi-bolumleri-minika-cocukta-1600785091034.jpg" data-loadMode="3" alt="" class="lazyload animated" />
+                        <span class="showcase-stream-icon video ">
+                        </span>
+                    </picture>
+                    <span class="showcase-txt-content">
+                        <h2 class="showcase-txt-title">Luna&#39;nın Bilim D&#252;nyası B&#246;l&#252;mleri minika &#199;OCUK&#39;ta</h2>
+                        <span class="showcase-txt-explain"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+</div>
+</div>
+
+
+
+
+    
+
+<footer data-link="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/c/footer.css?v=18830" class="main-footer lazyload">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <a href="/">
+                        </a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/minika"><i class="facebook-icon"></i></a>
+                        <a href="https://twitter.com/minika"><i class="twitter-icon"></i></a>
+                        <a href="https://www.instagram.com/minika"><i class="instagram-icon"></i></a>
+                        <a href="https://www.youtube.com/minika"><i class="youtube-icon"></i></a>
+                    </div>
+                    <div class="footer-search">
+                        <input type="text" id="txtSearch" onkeydown="if(event.keyCode==13) Search();" placeholder="minikaÇocuk' ta ara" />
+                        <a href="javascript:;" name="btnSearch" id="btnSearch"><i class="input-search-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="footer-center">
+                    <ul>
+                        <li>
+                            <a href="https://www.minikacocuk.com.tr/yayin-akisi">Minika ÇOCUK Yayın Akışı</a>
+                            <a href="https://www.minikacocuk.com.tr/webtv/canli-yayin">Minika ÇOCUK İzle</a>
+                            <a href="http://oyun.minika.com.tr/">Minika ÇOCUK Oyunları</a>
+                            <a href="https://www.minikacocuk.com.tr/webtv">Video</a>
+                            <a href="http://www.minika.com.tr/minikacocuk-dergi">Minika ÇOCUK Dergi</a>
+                        </li>
+                        <li>
+                            <a href="http://www.minikago.com.tr/webtv/canli-yayin">Minika GO İzle</a>
+                            <a href="https://www.minikacocuk.com.tr/webtv">Video</a>
+                            <a href="https://www.youtube.com/minika">minika YouTube</a>
+                            <a href="https://www.minikacocuk.com.tr/webtv">Programlar</a>
+                        </li>
+                        <li>
+                            <a href="http://oyun.minika.com.tr/">Online Oyunlar</a>
+                            <a href="http://oyun.minika.com.tr/Oyun/Futbol">Futbol</a>
+                            <a href="http://oyun.minika.com.tr/Oyun/Macera">Macera</a>
+                            <a href="http://oyun.minika.com.tr/Oyun/Beceri">Beceri</a>
+                        </li>
+                        <li>
+                            <a href="http://oyun.minika.com.tr/Oyun/ZekaStrateji/">Zeka&amp;Strateji</a>
+                            <a href="http://oyun.minika.com.tr/Oyun/Yaris">Yarış</a>
+                            <a href="http://oyun.minika.com.tr/Oyun/Boyama">Boyama</a>
+                            <a href="http://oyun.minika.com.tr/Oyun/KizOyunlari">Kız Oyunları</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="footer-bottom">
+                    <ul>
+                        <li><a href="https://www.minikacocuk.com.tr/hakkimizda">Hakkımızda</a></li>
+                        <li><a href="https://www.minikacocuk.com.tr/gizlilik-bildirimi">Gizlilik Politikamız</a></li>
+                        <li><a href="https://www.minikacocuk.com.tr/veri-politikasi">Veri Politikası</a></li>
+                        <li><a href="javascript:;" onclick="document.getElementById('contactLink').click()">Bize Ulaşın</a></li>
+                        <li><a href="https://www.minikacocuk.com.tr/kunye">Künye</a></li>
+                        <li><a href="https://www.minika.com.tr/ebulten">EBülten</a></li>
+                        <li><a href="https://www.minikacocuk.com.tr/sss">SSS</a></li>
+                        <li><a href="https://www.minikacocuk.com.tr/guvenli-internet">Güvenli İnternet</a></li>
+                        <li><a href="https://www.minikacocuk.com.tr/rss">Rss</a></li>
+                        <li>© 2020 minika. Tüm hakları saklıdır.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="fGeneral">
+
+                    
+
+
+
+
+<div class="fGeneral">
+    <script>
+
+     var f = document.getElementsByClassName("fGeneral")[0],
+         fctrl = true;
+
+     function isHidden(el) {
+         var style = window.getComputedStyle(el);
+         return ((style.display === 'none') || (style.visibility === 'hidden'))
+     }
+
+     window.addEventListener("scroll", function () {
+
+         var o = (f.getBoundingClientRect().top + window.scrollY),
+             t = window.pageYOffset !== undefined ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop,
+             n = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+
+         if (isHidden(f) || !fctrl) return;
+
+         else if ((t + 10) > (o - n)) {
+
+             fctrl = false;
+
+             var ajax = new XMLHttpRequest();
+
+             ajax.open("GET", "https://i.tmgrup.com.tr/footer/iframes/v2/general.html?v=733", true);
+
+             ajax.send();
+
+             ajax.onreadystatechange = function () {
+
+                 if (ajax.readyState == 4 && ajax.status == 200) {
+
+                     var data = ajax.responseText,
+                         el = document.getElementsByClassName("fGeneral")[0],
+                         elChild = document.createElement('div');
+
+                     data = data.replace(/{copyrightYear}/g, "2024");
+
+                     elChild.innerHTML = data;
+                     el.appendChild(elChild);
+                 }
+             }
+
+         }
+
+     });
+
+    </script>
+</div>
+
+
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+    <script src="https://i.tmgrup.com.tr/contactus/j/contactus.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var tmdContactUs_PID = 31;
+    var tmdContactUs_PageType = '';
+</script>
+<a href="javascript:;" class="stickyLink" contactus-popup="" id="contactLink"> BİZE ULAŞIN </a>
+
+    <audio id="audio">
+        <source src="/sound/14.mp3" type="audio/mpeg">
+    </audio>
+
+    
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/lazysizes.min.js?v=18830" ></script>
+
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/ls.unveilhooks.min.js?v=18830" ></script>
+
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/touchswipe.min.1.6.18.js?v=18830" ></script>
+
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/swiper.min.js?v=18830" ></script>
+
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/showcase.js?v=18830" ></script>
+
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/jquery.fancybox.pack.js?v=18830" ></script>
+
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/main.js?v=18830" ></script>
+
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/main-slider.js?v=18830" ></script>
+
+
+
+
+
+<script type="text/javascript">
+    var _kvkkLink = "/veri-politikasi";
+</script>
+
+    <script  type="text/javascript" src="https://i.tmgrup.com.tr/mnka/cocuk/site/v1/j/jquery.cookie.js?v=18830" ></script>
+
+<script type="text/javascript" src="https://i.tmgrup.com.tr/tmd-consent/j/tmd-kvkk.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        window.___gcfg = { lang: 'tr' };
+        (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <div id="fb-root"></div>
+    <script type="text/javascript">
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/tr_TR/all.js#xfbml=1&appId=198644300237293";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+        !function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, "script", "twitter-wjs");
+    </script>
+    <script type="text/javascript">
+        (function () {
+            var a = document.getElementsByTagName('script')[0],
+                b = document.createElement('script');
+            b.async = !0; b.src = '//cdn.dimml.io/dimml.js';
+            a.parentNode.insertBefore(b, a);
+        })();
+    </script>
+
+
+
+    
+    
+
+
+
+
+                    <script type="text/javascript">
+                        <!--//--><![CDATA[//><!--
+                         if(typeof tmdCheckConsent === 'undefined' || tmdCheckConsent('statistics')){ 
+                        var gemiusIds = { Web: '.R0wPe7EE_URVAtDhdpMu8ex7KS8eDgt5TMBNTxFC8z.L7', Mobile: '.R0wPe7EE_URVAtDhdpMu8ex7KS8eDgt5TMBNTxFC8z.L7' };
+                        var pp_gemius_identifier = (deviceInfo.isMobile ? gemiusIds.Mobile : gemiusIds.Web);
+                        var gemius_disable_back_cache_hits = true;
+                        // lines below shouldn't be edited
+                        function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+                        gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+                        (function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+                        gt.src=l+'://tr.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script'); } 
+                        //--><!]]>
+                    </script>
+
+    
+
+    <div data-mbzone="PageOverlay" data-wbzone="PageOverlay"></div>
+    
+    <script>var canRunAds=!1</script><script src=https://ad01.tmgrup.com.tr/bd/dfp/js/ahaberads.js></script><script>function bdCheckBlk(){var i=deviceInfo.isMobile==!0?"mobile":"desktop",n,t;canRunAds==!0?(console.log("ads:"+canRunAds),bdGetCookie("blk_control")==null&&(n="BLK_"+i+"_NOTFOUND",ga("send","event",n,n,n),t=new Date,t.setDate(t.getDate()+5),bdSetCookie("blk_control","1",t.toGMTString(),"/"))):(console.log("ads:"+canRunAds),bdGetCookie("blk_control")==null&&(n="BLK_"+i+"_FOUND",ga("send","event",n,n,n),t=new Date,t.setDate(t.getDate()+5),bdSetCookie("blk_control","1",t.toGMTString(),"/")))}$(document).ready(function(){bdCheckBlk()})</script>
+    
+
+</body>
+</html>
